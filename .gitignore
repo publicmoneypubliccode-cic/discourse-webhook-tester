@@ -1,7 +1,7 @@
 # specific to the batsignal tester
 # don't put env variables on GitHub!
-env.sh
-test_env.sh
+live-env
+test-env
 
 *.gem
 *.rbc

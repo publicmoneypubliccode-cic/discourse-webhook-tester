@@ -3,6 +3,7 @@
 require 'discourse_api'
 require 'date'
 require 'dotenv'
+Dotenv.load('test-env')
 
 # set up client
 client = DiscourseApi::Client.new(ENV['DISCOURSE_URL'])
