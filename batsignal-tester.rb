@@ -2,7 +2,7 @@
 # all config is in
 require 'discourse_api'
 require 'date'
-# require 'dotenv'
+require 'dotenv'
 
 # set up client
 client = DiscourseApi::Client.new(ENV['DISCOURSE_URL'])
