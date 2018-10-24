@@ -11,6 +11,7 @@ GEM
       multipart-post (>= 1.2, < 3)
     faraday_middleware (0.12.2)
       faraday (>= 0.7.4, < 1.0)
+    logger (1.2.8)
     multipart-post (2.0.0)
     rack (2.0.5)
 
@@ -21,6 +22,7 @@ DEPENDENCIES
   date
   discourse_api
   dotenv
+  logger
 
 BUNDLED WITH
    1.16.5
