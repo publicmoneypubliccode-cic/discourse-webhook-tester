@@ -4,7 +4,7 @@ require 'discourse_api'
 require 'date'
 require 'dotenv'
 require 'logger'
-Dotenv.load('test-env')
+Dotenv.load('test.env')
 
 @logger = Logger.new(STDOUT)
 
