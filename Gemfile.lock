@@ -1,7 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    date (2.0.0)
+    date (2.0.1)
     discourse_api (0.35.0)
       faraday (~> 0.9)
       faraday_middleware (~> 0.10)
