@@ -1,5 +1,5 @@
 #!/usr/bin/env ruby
-# all config is in
+# all config is in ENV vars
 require 'discourse_api'
 require 'date'
 require 'dotenv'
@@ -33,7 +33,7 @@ def send_batsignal
 end
 
 # check it is Monday
-if Date.today.monday?
+if Date.today.sunday?
   send_batsignal
 else
   @logger.info "Batsignal test not sent - today is #{Date.today.strftime('%A')}"
