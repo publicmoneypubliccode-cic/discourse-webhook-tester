@@ -33,7 +33,7 @@ def send_batsignal
 end
 
 # check it is Monday
-if Date.today.sunday?
+if Date.today.monday?
   send_batsignal
 else
   @logger.info "Batsignal test not sent - today is #{Date.today.strftime('%A')}"
