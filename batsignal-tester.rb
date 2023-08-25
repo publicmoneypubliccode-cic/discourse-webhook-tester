@@ -32,11 +32,6 @@ def send_batsignal
   end
 end
 
-# check it is Monday
-if Date.today.sunday?
-  send_batsignal
-else
-  @logger.info "Batsignal test not sent - today is #{Date.today.strftime('%A')}"
-end
+send_batsignal
 
 # email notification to admin
